@@ -1,3 +1,13 @@
+import Task from "../components/task/Task";
+import { tasks } from "../constants/tasks";
+
 export default function Home() {
-    return <>Main page</>;
+  return (
+    <div>
+      {tasks.map((task) => {
+        const { id, dateOfCreate, isDone, title } = task;
+        return <Task {...task} />;
+      })}
+    </div>
+  );
 }
