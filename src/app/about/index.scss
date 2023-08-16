@@ -1,13 +1,3 @@
-var redColor : 'red';
-
-.prices-spans {
-    background-color: redColor;
-
-    span {
-        background-color: ligthen(redColor, 50%);
-    }
-}
-
 * {
-    color:darkblue
+    color: darkblue;
 }

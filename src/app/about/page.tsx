@@ -6,8 +6,8 @@ const About = () => {
         <>
             <h1>About Page</h1>
             <p>
-                Hello. This is small frontend application to learn a little bit
-                about "Next JS"
+                {`Hello. This is small frontend application to learn a little bit
+                about "Next JS"`}
             </p>
             <p>
                 The main idea is to create TODO list understand:
